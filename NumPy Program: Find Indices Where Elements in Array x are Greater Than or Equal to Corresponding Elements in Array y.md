@@ -13,9 +13,18 @@ To write a Python program using **NumPy** that finds the indices where elements 
 5. **Print Indices**: Print the indices where the condition holds true.
 
 ## 🧾 Program
-
-Add code here
-
+```
+import numpy as np  
+x=[21, 64, 86, 22, 74, 55, 81, 79, 90, 89]
+y=[21, 7, 3, 45, 10, 29, 55, 4, 37, 18]
+l1=np.array(x) 
+l2=np.array(y) 
+print(np.where(l1>l2)) 
+print(np.where(l1==l2))
+```
 ## Output
+<img width="1261" height="281" alt="71" src="https://github.com/user-attachments/assets/b471cb9d-9c27-4c53-b00f-e4f2b7ceb04c" />
 
 ## Result
+Thus, the NumPy-based array comparison program executed and verified successfully.
+
